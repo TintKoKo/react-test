@@ -1,0 +1,20 @@
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.card-grid :last-child {
+  grid-column-start: 4;
+  grid-row: 1;
+  grid-row-end: 3;
+}
+
+.grid-span-2 {
+  grid-column: span 2;
+}
+
+article {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 8px;
+}
